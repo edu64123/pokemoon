@@ -1,0 +1,14 @@
+antes de executar:
+1. coloque o nome dos dois integrantes no comentario da classe PokemonApiApplication.
+2. abra ConnectionFactory.java e coloque seu usuario e senha do Oracle.
+3. execute o arquivo banco.sql no Oracle.
+4. abra o projeto no IntelliJ como projeto Maven.
+5. execute PokemonApiApplication.
+
+endpoints:
+GET  /pokemon
+POST /pokemon
+GET  /pokemon/{id}
+GET  /pokemon/nome/{nome}
+GET  /pokemon/api/{nome}
+
